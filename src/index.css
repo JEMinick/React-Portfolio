@@ -11,3 +11,111 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  border-bottom: 5px solid #2220b4;
+}
+
+.nav-tabs {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  float: right;
+  /* margin-right: 10%; */
+  /* border: 5px solid yellow; */
+}
+
+.hdr-left {
+  float: left;
+  /* border: 1px solid yellow; */
+  background-color: yellow;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* .hdr-font {
+  font-size: 48px;
+} */
+
+.hdr-right {
+  float: right;
+  border: 1px solid yellow;
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+h1 p {
+  font-size: 36px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  /* height: 500px; */
+  margin: 1rem;
+  position: relative;
+  width: 325px;
+  /* offset-x | offset-y | blur-radius | color */
+  box-shadow: 3px 5px 5px darkgray;  
+  text-align: left;
+}
+
+.card > .img-container {
+  height: 90%;
+  overflow: hidden;
+  text-align: center;
+  background:#e3e2e9;
+  margin-top: 10px;
+  padding-top: 10px;
+  
+}
+
+.card > .about-container {
+  /* height: 50%; */
+  /* overflow: hidden; */
+  text-align: center;
+  background:#e3e2e9;
+  margin-top: 10px;
+  padding-top: 10px;
+  
+}
+.card > .about-container > img {
+  /* margin-top: 0.5rem; */
+  width: 90%
+}
+
+.card > .img-container > img {
+  /* margin-top: 0.5rem; */
+  width: 90%
+}
+
+.card > .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 15px;
+  /* height: 200px; */
+}
+
+.card > .content > ul {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card > .content > ul > li {
+  margin-top: 3px;
+}
+
+.portfolio-container {
+  margin-top: 40px;
+  max-width: 95%;
+}
+
+.card port-card {
+  margin-top: 5px;
+  padding-top: 5px;
+  /* flex: inherit; */
+  /* display: flex; */
+}
