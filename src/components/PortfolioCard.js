@@ -2,7 +2,7 @@ import React from "react";
 
 function PortfolioCard(props) {
   return (
-    <div className="card port-card d-flex justify-content-around">
+    <div className="card port-card">
       <div className="img-container">
         <img alt={props.name} src={props.image} />
       </div>
