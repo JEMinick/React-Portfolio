@@ -6,6 +6,7 @@ function HomeCard() {
       <div className="row row-home">
         <div className="col">
         </div>
+
         <div className="card col-6">
           <h1 className="text-center">About</h1>
           <div className="about-container">
@@ -19,22 +20,10 @@ function HomeCard() {
           and methods to meet ever-changing objectives and ensure compliance with all regulatory 
           requirements.
           </p>
-          {/* <a href="https://www.linkedin.com/in/james-minick-sandiego" className="ml-5">LinkedIn</a> */}
-          {/* <a href="https://github.com/JEMinick" className="ml-5">Github</a> */}
-        </div>
-        <div className="col">
         </div>
 
-        {/* <div className="col-4">
-          <div className="card card-home">
-            <div className="card-body">
-              <h5 className="card-title text-center">Full Stack Web developer</h5>
-              <p className="card-text text-center">Experienced and Professional</p>
-              <a href="https://www.linkedin.com/in/james-minick-sandiego" className="ml-5">LinkedIn</a>
-              <a href="https://github.com/JEMinick" className="ml-5">Github</a>
-            </div>
-          </div>
-        </div> */}
+        <div className="col">
+        </div>
 
       </div>
     );
