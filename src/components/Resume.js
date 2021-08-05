@@ -13,13 +13,6 @@ function Resume() {
       <div className="card col-4">
         {/* <h1 className="text-center">About</h1> */}
         <div className="about-container">
-          <img src={ResumePDF} alt="minick-resume" className="profile-photo mb-3"></img>
-        </div>
-      </div>
-
-      <div className="card col-4">
-        {/* <h1 className="text-center">About</h1> */}
-        <div className="about-container">
           <img src={HomePageProfile} alt="home-profile-pic" className="profile-photo mb-3"></img>
         </div>
         <h5 className="text-center mt-2">Experienced Software Developer</h5>
@@ -32,6 +25,13 @@ function Resume() {
         </p>
         {/* <a href="https://www.linkedin.com/in/james-minick-sandiego" className="ml-5">LinkedIn</a> */}
         {/* <a href="https://github.com/JEMinick" className="ml-5">Github</a> */}
+      </div>
+
+      <div className="card col-4">
+        {/* <h1 className="text-center">About</h1> */}
+        <div className="about-container">
+          <img src={ResumePDF} alt="minick-resume" className="profile-photo mb-3"></img>
+        </div>
       </div>
 
       <div className="col">

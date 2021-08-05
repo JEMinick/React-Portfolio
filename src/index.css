@@ -13,23 +13,36 @@ code {
 }
 
 .header {
-  border-bottom: 5px solid #2220b4;
+  border-bottom: 5px solid #827717;
 }
 
 .nav-tabs {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   float: right;
+  background-color: white;
+  color: black;
   /* margin-right: 10%; */
   /* border: 5px solid yellow; */
+}
+
+/* .nav-item {
+  background-color: white;
+  color: white;
+} */
+
+.nav-link {
+  color: #9e9d24 ;
+  background-color: black;
 }
 
 .hdr-left {
   float: left;
   /* border: 1px solid yellow; */
-  background-color: yellow;
-  padding-left: 15px;
-  padding-right: 15px;
+  background-color: #f0f4c3;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 2rem;
 }
 
 /* .hdr-font {
@@ -46,8 +59,9 @@ p {
   margin-bottom: 1rem;
 }
 h1 p {
-  font-size: 36px;
+  font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 1px solid #c0ca33;
 }
 
 .card {

@@ -12,10 +12,10 @@ function PortfolioCard(props) {
             <strong>Name:</strong> {props.name}
           </li>
           <li>
-            <strong>Project:</strong> {props.project}
+            <strong>Github:</strong> <a href={props.project} rel="noreferrer" target="_blank">Project Files</a>
           </li>
           <li>
-            <strong>Github:</strong> <a href={props.location} rel="noreferrer" target="_blank">Project</a>
+            <strong>Application:</strong> <a href={props.location} rel="noreferrer" target="_blank">Run</a>
           </li>
         </ul>
       </div>

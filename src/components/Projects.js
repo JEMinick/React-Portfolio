@@ -12,37 +12,37 @@ let aProjects = [
   {
     "name": "Personal Pet Vaccine Tracker",
     "image": "CPOPPVT.png",
-    "project": "CPO-PPVT",
-    "location": "https://jeminick.github.io/CPO_PPVT/"
+    "project": "https://jeminick.github.io/CPO_PPVT/",
+    "location": "https://cpoppvt.herokuapp.com/login"
   },
   {
     "name": "Brewery Crawler",
     "image": "brewery-crawler.png",
-    "project": "Brewery-Crawler",
+    "project": "https://github.com/JEMinick/Brewery-Crawler",
     "location": "https://jeminick.github.io/Brewery-Crawler/"
   },
   {
     "name": "Weather Map App",
     "image": "WeatherMap.png",
-    "project": "Weather-Dashboard",
+    "project": "https://github.com/JEMinick/Weather-Dashboard",
     "location": "https://jeminick.github.io/Weather-Dashboard/"
   },
   {
     "name": "JavaScript Coding Quiz App",
     "image": "CodeQuizApp.png",
-    "project": "JEM-CodeQuiz",
+    "project": "https://github.com/JEMinick/JEM-CodeQuiz",
     "location": "https://jeminick.github.io/JEM-CodeQuiz/"
   },
   {
     "name": "Daily Planner App",
     "image": "DailyPlanner.png",
-    "project": "Daily-Planner",
+    "project": "https://github.com/JEMinick/Daily-Planner",
     "location": "https://jeminick.github.io/Daily-Planner/"
   },
   {
     "name": "Password Generator",
     "image": "password-generator.png",
-    "project": "password-generator",
+    "project": "https://github.com/JEMinick/password-generator",
     "location": "https://jeminick.github.io/password-generator/"
   }
 ]
