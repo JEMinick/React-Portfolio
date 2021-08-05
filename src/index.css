@@ -1,3 +1,10 @@
+:root {
+  --lg-a2: #b2ff59; /* light-green accent-2 */
+  --lg-d3: #558b2f; /* light-green darken-3 */
+  --hdr-ftr-bdr: #33691e; /* light-green darken-4 */
+  --hdr-ftr-bg: #ccff90; /* #ccff90 light-green accent-1 */
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,28 +20,57 @@ code {
 }
 
 .header {
-  border-bottom: 5px solid #827717;
+  color: var(--hdr-ftr-bdr);
+  background-color: var(--hdr-ftr-bg);
+  border-bottom: 4px solid var(--hdr-ftr-bdr);
 }
+
+/* #root {
+  background-color: black;
+} */
+
+.footer {
+  width: 100%;
+  text-align: center;
+  color: var(--hdr-ftr-bdr);
+  background-color: var(--hdr-ftr-bg);
+  border-top: 2px solid var(--hdr-ftr-bdr);
+}
+
+.footer-icons {
+  color: var(--hdr-ftr-bdr);
+  background-color: var(--hdr-ftr-bg);
+  text-align: center;
+  padding: 0 10px;
+  font-size: 36px;
+}
+
+/* .nav {
+  color: var(--lg-d3);
+  background-color: var(--lg-a2);
+} */
 
 .nav-tabs {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   float: right;
-  background-color: white;
-  color: black;
+  /* color: black;
+  background-color: white; */
+
   /* margin-right: 10%; */
   /* border: 5px solid yellow; */
 }
 
-/* .nav-item {
-  background-color: white;
-  color: white;
-} */
-
-.nav-link {
-  color: #9e9d24 ;
-  background-color: black;
+.nav-item {
+  background-color: var(--lg-a2);
+  /* background-color: white; */
+  /* color: black; */
+  font-weight: bold;
 }
+
+/* .nav-link {
+  font-weight: normal;
+} */
 
 .hdr-left {
   float: left;
@@ -67,7 +103,6 @@ h1 p {
 .card {
   background: #fff;
   border-radius: 2px;
-  /* height: 500px; */
   margin: 1rem;
   position: relative;
   width: 375px;
@@ -77,27 +112,25 @@ h1 p {
 }
 
 .card > .img-container {
-  height: 90%;
+  /* height: 80%; */
   overflow: hidden;
   text-align: center;
   background:#e3e2e9;
   margin-top: 10px;
   padding-top: 10px;
-  
 }
 
 .card > .about-container {
   /* height: 50%; */
-  /* overflow: hidden; */
+  overflow: hidden;
   text-align: center;
   background:#e3e2e9;
   margin-top: 10px;
   padding-top: 10px;
-  
 }
+
 .card > .about-container > img {
-  /* margin-top: 0.5rem; */
-  width: 90%
+  width: 75%
 }
 
 .card > .img-container > img {
@@ -109,13 +142,13 @@ h1 p {
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 15px;
-  /* height: 200px; */
 }
 
 .card > .content > ul {
   list-style-type: none;
   margin-top: 10px;
   margin-bottom: 10px;
+  /* height: 200px; */
 }
 
 .card > .content > ul > li {
@@ -127,10 +160,7 @@ h1 p {
   max-width: 95%;
 }
 
-/* .card port-card { */
 .port-card {
   margin-top: 5px;
   padding-top: 5px;
-  /* flex: inherit; */
-  /* display: flex; */
 }
