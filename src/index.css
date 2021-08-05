@@ -70,7 +70,7 @@ h1 p {
   /* height: 500px; */
   margin: 1rem;
   position: relative;
-  width: 325px;
+  width: 375px;
   /* offset-x | offset-y | blur-radius | color */
   box-shadow: 3px 5px 5px darkgray;  
   text-align: left;
@@ -127,7 +127,8 @@ h1 p {
   max-width: 95%;
 }
 
-.card port-card {
+/* .card port-card { */
+.port-card {
   margin-top: 5px;
   padding-top: 5px;
   /* flex: inherit; */
