@@ -2,15 +2,18 @@ import React from "react";
 // import PortfolioCard from "./PortfolioCard";
 import HomePageProfile from "../assets/HomeProfile.jpg"
 import ResumePDF from "../assets/minick_resume.pdf"
+import ResumePNG from "../assets/minick_resume.png"
 
 function Resume() {
   return (
-    <div className="row row-home">
+    // row row-home
+    // display-flex justify-space-between align-center
+    <div className="row display-flex justify-space-between align-center">
 
       <div className="col">
       </div>
       
-      <div className="card col-4">
+      <div className="card col-md-4">
         {/* <h1 className="text-center">About</h1> */}
         <div className="about-container">
           <img src={HomePageProfile} alt="home-profile-pic" className="profile-photo mb-3"></img>
@@ -27,10 +30,12 @@ function Resume() {
         {/* <a href="https://github.com/JEMinick" className="ml-5">Github</a> */}
       </div>
 
-      <div className="card col-4">
-        {/* <h1 className="text-center">About</h1> */}
+      <div className="card col-md-4">
         <div className="about-container">
-          <img src={ResumePDF} alt="minick-resume" className="profile-photo mb-3"></img>
+          <a className="link" href={ResumePDF} target="_blank" rel="noreferrer">  View  <i className="fas fa-file-pdf text-link"></i>  Resume </a>
+          <div className="about-container">
+            <img src={ResumePNG} alt="personal resume" className="profile-photo mb-3"></img>
+          </div>
         </div>
       </div>
 
