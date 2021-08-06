@@ -13,7 +13,7 @@ function Resume() {
       <div className="col">
       </div>
       
-      <div className="card col-md-4">
+      <div className="card col-md-4 port-card">
         {/* <h1 className="text-center">About</h1> */}
         <div className="about-container">
           <img src={HomePageProfile} alt="home-profile-pic" className="profile-photo mb-3"></img>
@@ -30,7 +30,7 @@ function Resume() {
         {/* <a href="https://github.com/JEMinick" className="ml-5">Github</a> */}
       </div>
 
-      <div className="card col-md-4">
+      <div className="card col-md-4 port-card">
         <div className="about-container">
           <a className="link" href={ResumePDF} target="_blank" rel="noreferrer">  View  <i className="fas fa-file-pdf text-link"></i>  Resume </a>
           <div className="about-container">
