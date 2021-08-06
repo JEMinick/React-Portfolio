@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from './components/Home'; 
 import Projects from './components/Projects';
+import Contact from './components/Form/index';
 import Resume from './components/Resume';
 
 // import Articles from './Articles.js'; 
@@ -20,12 +21,17 @@ function App() {
       <div className="App">
 
         <Header />
+        
         <Route exact path="/React-Portfolio" component={HomePage} />
         <Route exact path="/" component={HomePage} />
         <Route exact path="/about" component={HomePage} />
         <Route path="/projects" component={Projects} />
+        <Route path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
-        <Footer fburl="https://www.facebook.com/ed.minick"/>
+
+        <Footer 
+          fburl="https://www.facebook.com/ed.minick"
+        />
 
         {/* <Route path="/about" component={About} />         */}
 

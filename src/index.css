@@ -105,7 +105,7 @@ h1 p {
   border-radius: 2px;
   margin: 1rem;
   position: relative;
-  width: 375px;
+  /* width: 375px; */
   /* offset-x | offset-y | blur-radius | color */
   box-shadow: 3px 5px 5px darkgray;  
   text-align: left;
@@ -141,7 +141,8 @@ h1 p {
 .card > .content {
   padding-left: 1rem;
   padding-right: 1rem;
-  font-size: 15px;
+  font-size: 20px;
+  border: 2px dotted darkgray;
 }
 
 .card > .content > ul {
@@ -163,4 +164,5 @@ h1 p {
 .port-card {
   margin-top: 5px;
   padding-top: 5px;
+  width: 375px;
 }
