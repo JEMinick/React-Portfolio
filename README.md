@@ -38,6 +38,12 @@ To run this application:
 ```
 npm run start
 ```
+## On-Line Links:
+[Live app on GitHub.com](https://jeminick.github.io/React-Portfolio/)
+[GitHub Repository](https://github.com/JEMinick/React-Portfolio/)
+
+## Sample Screen Shot:
+![React-Portfolio screen shot:](./assets/React-Portfolio_Screen.png?raw=true)
 
 ## Contributing
 <a name="contributing"></a>
