@@ -1,7 +1,7 @@
 import React from "react";
 // import PortfolioCard from "./PortfolioCard";
 import HomePageProfile from "../assets/HomeProfile.jpg"
-import ResumePDF from "../assets/minick_resume.pdf"
+import ResumePDF from "../assets/minick_resume_2021.pdf"
 import ResumePNG from "../assets/minick_resume.png"
 
 function Resume() {
